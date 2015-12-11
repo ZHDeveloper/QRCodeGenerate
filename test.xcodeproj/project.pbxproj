@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530EB7E71C1A72440054907C /* UIImage+QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 530EB7E61C1A72440054907C /* UIImage+QRCodeImage.m */; };
 		53BDCFFE1C1A59680040813C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BDCFFD1C1A59680040813C /* main.m */; };
 		53BDD0011C1A59680040813C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BDD0001C1A59680040813C /* AppDelegate.m */; };
 		53BDD0041C1A59680040813C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BDD0031C1A59680040813C /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		530EB7E51C1A72440054907C /* UIImage+QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeImage.h"; sourceTree = "<group>"; };
+		530EB7E61C1A72440054907C /* UIImage+QRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCodeImage.m"; sourceTree = "<group>"; };
 		53BDCFF91C1A59680040813C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BDCFFD1C1A59680040813C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53BDCFFF1C1A59680040813C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				53BDD0001C1A59680040813C /* AppDelegate.m */,
 				53BDD0021C1A59680040813C /* ViewController.h */,
 				53BDD0031C1A59680040813C /* ViewController.m */,
+				530EB7E51C1A72440054907C /* UIImage+QRCodeImage.h */,
+				530EB7E61C1A72440054907C /* UIImage+QRCodeImage.m */,
 				53BDD0051C1A59680040813C /* Main.storyboard */,
 				53BDD0081C1A59680040813C /* Assets.xcassets */,
 				53BDD00A1C1A59680040813C /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BDD0041C1A59680040813C /* ViewController.m in Sources */,
+				530EB7E71C1A72440054907C /* UIImage+QRCodeImage.m in Sources */,
 				53BDD0011C1A59680040813C /* AppDelegate.m in Sources */,
 				53BDCFFE1C1A59680040813C /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				53BDD0281C1A59680040813C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BDD0291C1A59680040813C /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				53BDD02B1C1A59680040813C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BDD02C1C1A59680040813C /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				53BDD02E1C1A59680040813C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
